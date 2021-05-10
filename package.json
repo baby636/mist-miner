@@ -35,7 +35,7 @@
     "source-map-support": "^0.5.16",
     "spedn": "^0.2.1",
     "ts-node": "^8.8.2",
-    "typescript": "^3.8.3",
+    "typescript": "^4.2.4",
     "typescript-tslint-plugin": "^0.5.4",
     "varint": "^5.0.0"
   }
