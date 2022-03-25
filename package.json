@@ -6,7 +6,9 @@
   "scripts": {
     "start": "tsc && node ./src/miner.js",
     "test": "mocha --timeout 1000000 --exit",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Satoshi Nakamoto",
   "license": "MIT",
@@ -23,7 +25,8 @@
     "jsonfile": "6.0.1",
     "node-fetch": "^2.6.0",
     "slpjs": "0.27.2",
-    "synchronized-promise": "^0.3.1"
+    "synchronized-promise": "^0.3.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/mocha": "^5.1.1",
@@ -38,5 +41,6 @@
     "typescript": "^3.8.3",
     "typescript-tslint-plugin": "^0.5.4",
     "varint": "^5.0.0"
-  }
+  },
+  "snyk": true
 }
