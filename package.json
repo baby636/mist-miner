@@ -19,7 +19,7 @@
     "dotenv": "^8.2.0",
     "electrum-cash": "^1.0.1",
     "eventsource": "^1.0.7",
-    "grpc-bchrpc-node": "^0.10.0",
+    "grpc-bchrpc-node": "^0.15.2",
     "jsonfile": "6.0.1",
     "node-fetch": "^2.6.0",
     "slpjs": "0.27.2",
@@ -33,10 +33,10 @@
     "mocha": "^7.1.1",
     "mocha-steps": "^1.3.0",
     "source-map-support": "^0.5.16",
-    "spedn": "^0.2.1",
+    "spedn": "^0.3.0",
     "ts-node": "^8.8.2",
     "typescript": "^3.8.3",
-    "typescript-tslint-plugin": "^0.5.4",
+    "typescript-tslint-plugin": "^1.0.2",
     "varint": "^5.0.0"
   }
 }
