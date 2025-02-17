@@ -15,7 +15,7 @@
     "@types/eventsource": "^1.1.2",
     "@types/node-fetch": "^2.5.4",
     "bitbox-sdk": "^8.11.1",
-    "bitcore-lib-cash": "9.0.0",
+    "bitcore-lib-cash": "10.0.28",
     "dotenv": "^8.2.0",
     "electrum-cash": "^1.0.1",
     "eventsource": "^1.0.7",
